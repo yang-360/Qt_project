@@ -1,0 +1,20 @@
+1.用到的动态库:
+  	libprotobufd.dll 	libprotobufd.lib
+  	libprotocd.dll		libprotocd.lib
+2.可执行程序:
+  	protoc.exe
+3.头文件：
+tar zxvf protobuf-cpp-3.10.0.tar.gz
+./configure
+make
+make install
+find / -name protobuf
+	/usr/include 目录, 将 google目录打包 -> 从linux拷贝到window中
+4.配置环境变量：动态库和可执行程序添加
+5.转换c++文件：protoc.exe .proto文件的名字 --cpp_out=c++文件生成的路径 ---powershell
+6.VS配置：
+ a.项目属性--连接器--输入--附加依赖向项---libprotobufd.lib
+ b.项目属性--c\c++--预处理器--PROTOBUF_USE_DLLS
+ c.项目属性--vc++目录--包含目录include--库目录lib
+
+
