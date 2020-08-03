@@ -1,0 +1,10 @@
+# 忽略所有.o和 .a文件.
+*.[oa]
+    
+# 过滤整个文件夹
+/debug/
+/release/
+# 过滤stash
+*.stash
+*.Debug
+*.Release
