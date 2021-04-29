@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CH1_1Dialog</class>
+ <widget class="QDialog" name="CH1_1Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog_circular</string>
+  </property>
+  <widget class="QPushButton" name="startButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>220</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>计算</string>
+   </property>
+  </widget>
+  <widget class="QSplitter" name="splitter">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>130</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+   <widget class="QLabel" name="label_radius">
+    <property name="text">
+     <string>半径：</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_radius"/>
+   <widget class="QLabel" name="label_result">
+    <property name="text">
+     <string>面积:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_result"/>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
