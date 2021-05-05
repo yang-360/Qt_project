@@ -16,25 +16,29 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    baseinfo.cpp \
-    contact.cpp \
-    content.cpp \
-    detail.cpp \
-    dockwindows.cpp \
-    interfacedialog.cpp \
+    dialog.cpp \
+    digiclock.cpp \
+    drawer.cpp \
+    extensiondlg.cpp \
+    inputdlg.cpp \
     main.cpp \
     mainwindow.cpp \
-    stackdlg.cpp
+    msgboxdlg.cpp \
+    palette.cpp \
+    progressdlg.cpp \
+    shapewidget.cpp
 
 HEADERS += \
-    baseinfo.h \
-    contact.h \
-    content.h \
-    detail.h \
-    dockwindows.h \
-    interfacedialog.h \
+    dialog.h \
+    digiclock.h \
+    drawer.h \
+    extensiondlg.h \
+    inputdlg.h \
     mainwindow.h \
-    stackdlg.h
+    msgboxdlg.h \
+    palette.h \
+    progressdlg.h \
+    shapewidget.h
 
 FORMS += \
     mainwindow.ui
@@ -43,3 +47,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    ico.qrc

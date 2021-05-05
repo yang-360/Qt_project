@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/11.png</file>
+        <file>src/12.png</file>
+        <file>src/13.png</file>
+        <file>src/14.png</file>
+        <file>src/21.png</file>
+        <file>src/22.png</file>
+        <file>src/31.png</file>
+        <file>src/32.png</file>
+        <file>src/155.png</file>
+        <file>src/16.png</file>
+        <file>src/Qt.png</file>
+    </qresource>
+</RCC>

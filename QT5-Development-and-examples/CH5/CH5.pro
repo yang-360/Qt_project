@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -16,25 +16,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    baseinfo.cpp \
-    contact.cpp \
-    content.cpp \
-    detail.cpp \
-    dockwindows.cpp \
-    interfacedialog.cpp \
+    imgprocessor.cpp \
     main.cpp \
     mainwindow.cpp \
-    stackdlg.cpp
+    showwidget.cpp
 
 HEADERS += \
-    baseinfo.h \
-    contact.h \
-    content.h \
-    detail.h \
-    dockwindows.h \
-    interfacedialog.h \
+    imgprocessor.h \
     mainwindow.h \
-    stackdlg.h
+    showwidget.h
 
 FORMS += \
     mainwindow.ui
@@ -43,3 +33,6 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    src.qrc

@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/">
+        <file>src/bold.png</file>
+        <file>src/center.png</file>
+        <file>src/color.png</file>
+        <file>src/copy.png</file>
+        <file>src/cut.png</file>
+        <file>src/image.png</file>
+        <file>src/italic.png</file>
+        <file>src/justify.png</file>
+        <file>src/left.png</file>
+        <file>src/new.png</file>
+        <file>src/open.png</file>
+        <file>src/paste.png</file>
+        <file>src/printImage.png</file>
+        <file>src/printText.png</file>
+        <file>src/redo.png</file>
+        <file>src/right.png</file>
+        <file>src/rotate90.png</file>
+        <file>src/rotate180.png</file>
+        <file>src/rotate270.png</file>
+        <file>src/underline.png</file>
+        <file>src/undo.png</file>
+        <file>src/zoomin.png</file>
+        <file>src/zoomout.png</file>
+    </qresource>
+</RCC>
